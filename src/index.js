@@ -22,6 +22,7 @@ $(document.body).append(`
   <button id="subBtn">-</button>
 </div>
 `);
+
 store.subscribe(()=>{
     $('#counter').html(store.getState())
 })
